@@ -5,7 +5,7 @@
 ## Headline Results
 - **Position beats length:** a fact at the end of the document was retrieved in **24 of 24** conditions, while the middle broke at **8K** tokens for 0.5B and at **30K** for 3B. Scaling delayed the threshold, not removed it.
 - **Uneven scaling:** overall score **0.333 / 0.583 / 0.750** from 0.5B to 3B, yet no task type improves at both steps.
-- **Cache over weights:** 6.25× the weights buys **2.25×** the score; the KV cache buys up to **7.8×** speed, parameters unchanged.
+- **Cache over weights:** 6.25× the weights buys **2.25×** the score; KV cache buys up to **7.8×** speed, parameters unchanged.
 - **Smaller and better:** 3B in 4-bit uses **1.914 GiB** and scores **0.708**, against 1.5B in bf16 at 2.875 GiB and 0.583.
 
 ## Key Features
