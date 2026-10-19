@@ -1,6 +1,6 @@
 # Foundation Models HW1 - LLM Forensics
 
-**Home Assignment 1 (M.Sc. Data Science, HIT). Three sizes of Qwen2.5-Instruct (0.5B, 1.5B, 3B) investigated as a black box through controlled experiments — tokenization, decoding, long-context retrieval, scaling, inference efficiency and failure analysis. What can be learned about a foundation model from its behaviour, measurements and limits alone?**
+**Home Assignment 1 (M.Sc. Data Science, HIT, grade 93). Three sizes of Qwen2.5-Instruct (0.5B, 1.5B, 3B) investigated as a black box through controlled experiments — tokenization, decoding, long-context retrieval, scaling, inference efficiency and failure analysis. What can be learned about a foundation model from its behaviour, measurements and limits alone?**
 
 ## Headline Results
 - **Position beats length:** a fact at the end of the document was retrieved in **24 of 24** conditions, while the middle broke at **8K** tokens for 0.5B and at **30K** for 3B. Scaling delayed the threshold, not removed it.
